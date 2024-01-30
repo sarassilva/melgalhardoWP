@@ -1069,14 +1069,15 @@ body.page-template-semijoias .curadoria {
 .page-content .testimonials .slick-prev {
   background-image: url(images/arrow.png);
   width: 23px;
-  height: 41;
+  height: 30px;
+  background-size: contain;
 }
 
-.page-content .testimonials .slick-prev {
+.page-content .testimonials .slick-next {
   background-image: url(images/arrow.png);
   width: 23px;
-  height: 41;
-  transform: rotate(45);
+  height: 30px;
+  background-size: contain;
 }
 
 .instagram {
