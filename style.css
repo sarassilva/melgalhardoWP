@@ -1031,37 +1031,16 @@ body.page-template-semijoias .curadoria {
 
 .page-content .testimonials {
 	background: #d9d0bf;
-	padding: 60px 0 30px;
+	padding: 60px 0;
 }
 
-.page-content .testimonials .single-item-wrapper { 
-	display: flex;
-    flex-direction: column-reverse; 
+.page-content .testimonials .testimonial {
+
 }
 
-.page-content .testimonials .item-content-wrapper {
-	background: transparent !important;
-	color: #07282a;
-}
-
-.page-content .testimonials .tss-wrapper .tss-carousel3 .item-content-wrapper:before {
-	font-size: 60px;
-    color: #e0d9ce;
-    width: 56px;
-    margin: auto;
-    left: 0 !important;
-    right: 0;
-	top: 0;
-}
-
-.page-content .testimonials .item-content-wrapper .item-content {
-	z-index: 9999;
-    position: relative;
-	font-style: normal;
-}
-
-.page-content .testimonials h3.author-name {
-	margin: 0 !important;
+.page-content .testimonials .name {
+  color: #c69e62;
+  font-weight: 500;
 }
 
 .instagram {
