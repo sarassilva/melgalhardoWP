@@ -36,7 +36,7 @@
 					'tax_query' => array(
 						array(
 							'taxonomy' => 'area-do-depoimento',
-							'field' => 'slug',
+							'field' => 'term_id',
 							'terms' => array( $field ),
 						),
 					),
