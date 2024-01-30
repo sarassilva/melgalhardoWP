@@ -25,28 +25,36 @@
 				<?php the_content(); ?>
 			</div>
 			
+			<div class="testimonials">
+				<section class="container regular">
+				<?php
+					$field = get_field('depoimentos');
 
+					$new_loop = new WP_Query( array(
+					'post_type' => 'depoimento',
+					'posts_per_page' => 10,
+					'tax_query' => array(
+						array(
+							'taxonomy' => 'area-do-depoimento',
+							'field' => 'term_id',
+							'terms' => array( $field ),
+						),
+					),
+					) ); ?>
+						<?php if ( $new_loop->have_posts() ) : ?>
+						<?php while ( $new_loop->have_posts() ) : $new_loop->the_post(); ?>
+						<div>
+							<div class="testimonial">
+								<p><?php the_content(); ?></p>
+								<div class="name"><?php the_title(); ?></div>
+							</div>
+						</div>
+						<?php endwhile; else: endif;?>
+						<?php wp_reset_query(); ?>
 
-			<section class="regular slider">
-    <div>
-      <img src="http://placehold.it/350x300?text=1">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=2">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=3">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=4">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=5">
-    </div>
-    <div>
-      <img src="http://placehold.it/350x300?text=6">
-    </div>
-  </section>
+				</section>
+			</div>
+
 			
 			<div class="instagram">
 				<section class="container">
