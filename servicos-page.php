@@ -58,26 +58,5 @@
 
 	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
-<script async src="<?php echo get_template_directory_uri(); ?>/js/slick.js"></script>
-<script type="text/javascript">
-    $(document).on('ready', function() {     
-      $(".regular").slick({
-        dots: false,
-        infinite: true,
-        slidesToShow: 2,
-        slidesToScroll: 1,
-        responsive: [
-          {
-            breakpoint: 600,
-            settings: {
-              slidesToShow: 1,
-              slidesToScroll: 1,
-            }
-          }
-        ]
-      });      
-    });
-</script>
-
 <?php get_footer(); ?>
 
