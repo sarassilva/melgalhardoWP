@@ -1035,7 +1035,19 @@ body.page-template-semijoias .curadoria {
 }
 
 .page-content .testimonials .testimonial {
+  padding: 0 20px;
+  text-align: center;
+  position: relative;
+}
 
+.page-content .testimonials .testimonial::after {
+  background-image: url(images/aspas.png);
+  width: 120px;
+  height: 120px;
+  background-size: 100%;
+  content: ' ';
+  position: absolute;
+  margin: 0;
 }
 
 .page-content .testimonials .name {
