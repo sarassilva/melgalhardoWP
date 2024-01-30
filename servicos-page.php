@@ -43,7 +43,10 @@
 					) ); ?>
 						<?php if ( $new_loop->have_posts() ) : ?>
 						<?php while ( $new_loop->have_posts() ) : $new_loop->the_post(); ?>
-							<?php the_title(); ?>
+							<div class="testimonial">
+								<p><?php the_content(); ?></p>
+								<div class="name"><?php the_title(); ?></div>
+							</div>
 						<?php endwhile; else: endif;?>
 						<?php wp_reset_query(); ?>
 
