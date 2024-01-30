@@ -1128,10 +1128,14 @@ body.error404 .error__content .btn {
 	padding 20px 25px !important;
 }
 
-.page-content .eb-accordion-wrapper h3 {
+.page-content .eb-accordion-wrapper h2 {
 	font-family: 'Inter', sans-serif;
 	font-size: 14px !important;
   text-transform: uppercase;
+}
+
+.page-content .eb-accordion-wrapper h3 {
+  border-bottom: 1px solid #e1d8c8;
 }
 
 .page-content .eb-accordion-wrapper .eb-accordion-title-wrapper .eb-accordion-icon-wrapper .eb-accordion-icon {
