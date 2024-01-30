@@ -1093,6 +1093,11 @@ body.page-template-semijoias .curadoria {
   display: block;
 }
 
+.page-content .banner {
+  background-color: #07282a;
+  color: #fff;
+}
+
 .instagram {
 	padding: 60px 0 0;
 }

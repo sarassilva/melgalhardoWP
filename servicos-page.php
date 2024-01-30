@@ -56,6 +56,13 @@
 			</div>
 
 			
+			<?php
+			if( get_sub_field('ativar_banner') == 'true' ) { ?>
+				<div class="banner">
+				</div>
+			<?php } ?> 
+
+			
 			<div class="instagram">
 				<section class="container">
 					<?php echo do_shortcode(get_field('instagram')); ?>
