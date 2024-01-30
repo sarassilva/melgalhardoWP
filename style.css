@@ -1071,6 +1071,9 @@ body.page-template-semijoias .curadoria {
   width: 23px;
   height: 30px;
   background-size: contain;
+  text-indent: -9999px;
+  background-repeat: no-repeat;
+  left: -10px;
 }
 
 .page-content .testimonials .slick-next {
@@ -1078,6 +1081,11 @@ body.page-template-semijoias .curadoria {
   width: 23px;
   height: 30px;
   background-size: contain;
+  text-indent: -9999px;
+  background-repeat: no-repeat;
+  transform: rotate(180deg);
+  top: 43%;
+  right: -10px;
 }
 
 .instagram {
