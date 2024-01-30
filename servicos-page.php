@@ -37,7 +37,7 @@
 						array(
 							'taxonomy' => 'area-do-depoimento',
 							'field' => 'slug',
-							'terms' => array( $field ),
+							'terms' => array( 'Serviço 2' ),
 						),
 					),
 					) ); ?>
