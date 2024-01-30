@@ -61,10 +61,10 @@
 		</section>
 	<?php endwhile; endif; ?>
 
-	<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
-	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-	<script type="text/javascript">
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<script async src="<?php echo get_template_directory_uri(); ?>/js/slick.js"></script>
+<script type="text/javascript">
     $(document).on('ready', function() {     
       $(".regular").slick({
         dots: false,
