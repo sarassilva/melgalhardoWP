@@ -28,7 +28,7 @@
 			<div class="testimonials">
 				<section class="container">
 				<?php
-					$field = get_field('depoimentos');;
+					$field = get_field('depoimentos');
 
 					$new_loop = new WP_Query( array(
 					'post_type' => 'depoimento',
@@ -43,7 +43,7 @@
 					) ); ?>
 						<?php if ( $new_loop->have_posts() ) : ?>
 						<?php while ( $new_loop->have_posts() ) : $new_loop->the_post(); ?>
-
+							<?php the_title(); ?>
 						<?php endwhile; else: endif;?>
 						<?php wp_reset_query(); ?>
 
