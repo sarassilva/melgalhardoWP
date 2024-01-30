@@ -6,9 +6,9 @@
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-		<section class="page-content">
+		<section class="page-content services">
 			<div class="main-image">
-				<h1><?php the_title(); ?></h1>	
+				<h1><?php the_field('titulo') ?></h1>	
 				<?php  if ( has_post_thumbnail() ) {
 				    the_post_thumbnail();
 				} ?>
