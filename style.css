@@ -1034,6 +1034,11 @@ body.page-template-semijoias .curadoria {
 	padding: 60px 0;
 }
 
+.page-content .testimonials p {
+  z-index: 999;
+  position: relative;
+}
+
 .page-content .testimonials .testimonial {
   padding: 0 20px;
   text-align: center;
@@ -1047,12 +1052,18 @@ body.page-template-semijoias .curadoria {
   background-size: 100%;
   content: ' ';
   position: absolute;
-  margin: 0;
+  top: -15px;
+  left: 0;
+  right: 0;
+  background-repeat: no-repeat;
+  margin: auto;
 }
 
 .page-content .testimonials .name {
   color: #c69e62;
   font-weight: 500;
+  font-family: 'Lora', sans-serif;
+  text-transform: uppercase;
 }
 
 .instagram {
