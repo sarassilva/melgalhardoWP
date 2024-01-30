@@ -1136,8 +1136,14 @@ body.error404 .error__content .btn {
 
 .page-content .eb-accordion-wrapper h3 {
   border-bottom: 1px solid #e1d8c8;
+  padding-bottom: 5px !important;
+  font-family: 'Inter', sans-serif;
 }
 
 .page-content .eb-accordion-wrapper .eb-accordion-title-wrapper .eb-accordion-icon-wrapper .eb-accordion-icon {
 	font-size: 12px;
+}
+
+.page-content .eb-accordion-wrapper ul li {
+  padding: 5px 0;
 }
