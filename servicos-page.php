@@ -47,7 +47,6 @@
 						<?php endwhile; else: endif;?>
 						<?php wp_reset_query(); ?>
 
-					<?php echo do_shortcode(get_field('depoimentos')); ?>
 				</section>
 			</div>
 			
