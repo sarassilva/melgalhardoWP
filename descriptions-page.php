@@ -55,11 +55,15 @@
 				</section>
 			</div>
 
-            <?php
-			if( get_sub_field('ativar_banner') == 'true' ) { ?>
-				<div class="banner">
-				</div>
-			<?php } ?> 
+            <?php if( have_rows('banner') ): ?>
+            <?php while( have_rows('banner') ): the_row(); ?>
+                <?php
+                if( get_sub_field('ativar_banner') == 'true' ) { ?>
+                    <div class="banner">
+                    </div>
+                <?php } ?>
+            <?php endwhile; ?>
+            <?php endif; ?>
 			
 			<div class="instagram">
 				<section class="container">
