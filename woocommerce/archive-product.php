@@ -18,6 +18,7 @@
 defined( 'ABSPATH' ) || exit;
 
 get_header() ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/wc.css" type="text/css" media="screen" />
 
 	<div class="woocommerce products__list">
 
