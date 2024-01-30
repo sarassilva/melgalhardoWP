@@ -28,9 +28,9 @@
 <?php include 'mobile-menu.php'; ?>
 <?php include 'help-center.php'; ?>
 
-<script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-<script  src="<?php echo get_template_directory_uri(); ?>/js/menu.js"></script>
-<script  src="<?php echo get_template_directory_uri(); ?>/js/theme.js"></script>
+<script async src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script async src="<?php echo get_template_directory_uri(); ?>/js/menu.js"></script>
+<script async src="<?php echo get_template_directory_uri(); ?>/js/theme.js"></script>
 
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Lora:wght@400;500&display=swap" rel="stylesheet">
 

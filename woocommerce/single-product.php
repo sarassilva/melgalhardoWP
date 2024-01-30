@@ -1,4 +1,5 @@
 <?php get_header() ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/wc.css" type="text/css" media="screen" />
 
 <div class="single__product">
 	<section class="container">

@@ -3,6 +3,8 @@
 ?>
 
 <?php acf_form_head(); get_header(); ?>
+<link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/wc.css" type="text/css" media="screen" />
+
 
 	<div class="slider">
 		<?php echo do_shortcode('[smartslider3 slider="7"]');?>
