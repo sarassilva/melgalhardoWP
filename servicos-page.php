@@ -26,7 +26,7 @@
 			</div>
 			
 			<div class="testimonials">
-				<section class="container">
+				<section class="container regular">
 				<?php
 					$field = get_field('depoimentos');
 
@@ -61,5 +61,27 @@
 		</section>
 	<?php endwhile; endif; ?>
 
+	<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+	<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+	<script type="text/javascript">
+    $(document).on('ready', function() {     
+      $(".regular").slick({
+        dots: false,
+        infinite: true,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        responsive: [
+          {
+            breakpoint: 600,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1,
+            }
+          }
+        ]
+      });      
+    });
+</script>
 
 <?php get_footer(); ?>
+
