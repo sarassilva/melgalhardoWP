@@ -60,6 +60,12 @@
                 <?php
                 if( get_sub_field('ativar_banner') == 'true' ) { ?>
                     <div class="banner">
+                        <div class="image">
+                            <img src="<?php get_sub_field('instagram'); ?>" />
+                        </div>
+                        <div class="chamada">
+                            <?php get_sub_field('chamada'); ?>
+                        </div>
                     </div>
                 <?php } ?>
             <?php endwhile; ?>
