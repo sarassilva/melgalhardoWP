@@ -1066,6 +1066,19 @@ body.page-template-semijoias .curadoria {
   text-transform: uppercase;
 }
 
+.page-content .testimonials .slick-prev {
+  background-image: url(images/arrow.png);
+  width: 23px;
+  height: 41;
+}
+
+.page-content .testimonials .slick-prev {
+  background-image: url(images/arrow.png);
+  width: 23px;
+  height: 41;
+  transform: rotate(45);
+}
+
 .instagram {
 	padding: 60px 0 0;
 }
