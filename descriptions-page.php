@@ -8,7 +8,9 @@
 
 		<section class="page-content services">
 			<div class="main-image">
-				<h1><?php the_title() ?></h1>	
+				<div class="container">
+					<h1><?php the_title() ?></h1>
+				</div>
 				<?php  if ( has_post_thumbnail() ) {
 				    the_post_thumbnail();
 				} ?>

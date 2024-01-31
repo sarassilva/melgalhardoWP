@@ -979,6 +979,9 @@ body.page-template-semijoias .curadoria {
   position: relative;
   margin-bottom: 60px;
 }
+.page .main-image .container {
+  position: relative;
+}
 .page .main-image h1 {
   position: absolute;
   bottom: 20px;
@@ -1051,6 +1054,11 @@ body.page-template-semijoias .curadoria {
   border: 1px solid #c69e62;
   padding: 20px;
   height: auto;
+  margin: 0 10px;
+}
+
+.page-template-descriptions-page .testimonials {
+  margin-top: 30px;
 }
 
 .page-content .testimonials {
