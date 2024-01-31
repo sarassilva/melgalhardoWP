@@ -1231,6 +1231,7 @@ body.page-template-semijoias .curadoria {
 
 .page-content .banner-mel {
   background-color: #e3dccb;
+  color: #07282a;
 }
 
 .page-content .banner-mel .container {
@@ -1252,12 +1253,18 @@ body.page-template-semijoias .curadoria {
 .page-content .banner-mel .chamada {
   padding: 5% 5% 20px;
   font-family: 'Lora';
-  font-size: 30px;
   line-height: normal;
+  font-size: 25px;
 }
 
 .page-content .banner-mel .chamada p {
-  line-height: 38px;
+  line-height: normal;
+}
+
+.page-content .banner-mel .chamada h4 {
+  margin: 0;
+  font-weight: 500;
+  font-size: 40px;
 }
 
 .page-content .banner-mel .chamada a {
@@ -1279,20 +1286,23 @@ body.page-template-semijoias .curadoria {
 
 @media (min-width: 782px) {
   .page-content .banner-mel .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 80px;
+    gap: 71px;
+    flex-direction: row-reverse;
+  }
+
+  .page-content .banner-mel .image {
+    width: 50%;
   }
 
   .page-content .banner-mel .chamada {
-    max-width: 500px;
-    font-size: 40px;
+    width: 42%;
   }
 
   .page-content .banner-mel .chamada p {
-    line-height: 50px;
+    margin: 400px;
   }
 }
 
