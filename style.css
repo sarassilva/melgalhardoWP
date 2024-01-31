@@ -968,7 +968,6 @@ body.page-template-semijoias .curadoria {
   }
 }
 .page .page-content {
-  padding: 0 0 60px;
 }
 
 .page .page-content .wp-block-columns {
@@ -1305,6 +1304,8 @@ body.page-template-semijoias .curadoria {
     margin: 400px;
   }
 }
+
+
 
 .instagram {
 	padding: 60px 0 0;
