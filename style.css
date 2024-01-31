@@ -1301,7 +1301,7 @@ body.page-template-semijoias .curadoria {
   }
 
   .page-content .banner-mel .chamada p {
-    margin: 400px;
+    max-width: 400px;
   }
 }
 
