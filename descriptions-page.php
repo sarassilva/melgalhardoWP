@@ -8,7 +8,7 @@
 
 		<section class="page-content services">
 			<div class="main-image">
-				<h1><?php the_field('titulo') ?></h1>	
+				<h1><?php the_title() ?></h1>	
 				<?php  if ( has_post_thumbnail() ) {
 				    the_post_thumbnail();
 				} ?>
@@ -61,7 +61,7 @@
                 if( get_sub_field('ativar_banner') == 'true' ) { ?>
                     <div class="banner">
                         <div class="image">
-                            <img src="<?php get_sub_field('instagram'); ?>" />
+                            <img src="<?php get_sub_field('imagem'); ?>" />
                         </div>
                         <div class="chamada">
                             <?php get_sub_field('chamada'); ?>
