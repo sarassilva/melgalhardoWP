@@ -1086,7 +1086,7 @@ body.page-template-semijoias .curadoria {
   left: -10px;
 }
 
-.wp-block-cb-carousel .slick-next, .wp-block-cb-carousel .slick-next:hover {
+.wp-block-cb-carousel .slick-next, .wp-block-cb-carousel .slick-next:hover, .wp-block-cb-carousel .slick-next:not(:hover):not(:active), .wp-block-cb-carousel .slick-prev:not(:hover):not(:active) {
   background-image: url(images/arrow.png);
   width: 14px;
     height: 24px;
