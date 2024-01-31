@@ -66,11 +66,25 @@
             <?php endwhile; ?>
             <?php endif; ?>
 			
-			<div class="instagram">
-				<section class="container">
-					<?php echo do_shortcode(get_field('instagram')); ?>
-				</section>
-			</div>
+			<?php if( have_rows('banner_semijoias') ): ?>
+            <?php while( have_rows('banner_semijoias') ): the_row(); ?>
+                <?php
+                if( get_sub_field('ativar_banner') == 'true' ) { ?>
+                    <div class="banner-mel">
+						<div class="container">
+							<div class="image">
+								<img src="<?php the_sub_field('imagem'); ?>" />
+							</div>
+							<div class="chamada">
+								<?php the_sub_field('chamada'); ?>
+							</div>
+						</div>
+                    </div>
+                <?php } ?>
+            <?php endwhile; ?>
+            <?php endif; ?>
+
+
 		</section>
 	<?php endwhile; endif; ?>
 

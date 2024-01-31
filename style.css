@@ -1229,6 +1229,73 @@ body.page-template-semijoias .curadoria {
   }
 }
 
+.page-content .banner-mel {
+  background-color: #e3dccb;
+}
+
+.page-content .banner-mel .container {
+  max-width: 1920px;
+  width: 100%;
+}
+
+.page-content .banner-mel .image {
+  height: 400px;
+}
+
+.page-content .banner-mel .image img { 
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  object-position: center;
+}
+
+.page-content .banner-mel .chamada {
+  padding: 5% 5% 20px;
+  font-family: 'Lora';
+  font-size: 30px;
+  line-height: normal;
+}
+
+.page-content .banner-mel .chamada p {
+  line-height: 38px;
+}
+
+.page-content .banner-mel .chamada a {
+  border: #07282a 1px solid;
+  color: #07282a;
+  padding: 10px 30px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-family: 'Inter';
+  line-height: normal;
+}
+
+.page-content .banner-mel .chamada a:hover {
+  text-decoration: none;
+  background-color: #07282a;
+  color: #d9d0bf;
+}
+
+@media (min-width: 782px) {
+  .page-content .banner-mel .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+  }
+
+  .page-content .banner-mel .chamada {
+    max-width: 500px;
+    font-size: 40px;
+  }
+
+  .page-content .banner-mel .chamada p {
+    line-height: 50px;
+  }
+}
+
 .instagram {
 	padding: 60px 0 0;
 }
