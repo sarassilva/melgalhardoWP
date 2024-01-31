@@ -1043,7 +1043,11 @@ body.page-template-semijoias .curadoria {
   text-transform: none;
 }
 
-.wp-block-stackable-horizontal-scroller .wp-block-stackable-column {
+.wp-block-cb-carousel .slick-list {
+  display: flex;
+}
+
+.wp-block-cb-carousel .slick-list .wp-block-cb-slide {
   border: 1px solid #c69e62;
   padding: 20px;
 }
