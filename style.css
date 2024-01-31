@@ -970,6 +970,17 @@ body.page-template-semijoias .curadoria {
 .page .page-content {
   padding: 0 0 60px;
 }
+
+.page .page-content .wp-block-columns {
+  gap: 0;
+}
+
+@media (min-width: 782px) {
+  .page .page-content .wp-block-columns {
+    gap: 100px;
+  }
+}
+
 .page .main-image {
   width: 100%;
   max-width: 1920px;
@@ -984,13 +995,17 @@ body.page-template-semijoias .curadoria {
 }
 .page .main-image h1 {
   position: absolute;
-  bottom: 20px;
-  left: 5%;
   color: #fff;
   font-family: 'Lora', sans-serif;
   font-weight: 400;
   font-size: 40px;
   text-transform: uppercase;
+  max-width: 1300px;
+  width: 90%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  bottom: 50px;
 }
 
 .page-content h1 span {
