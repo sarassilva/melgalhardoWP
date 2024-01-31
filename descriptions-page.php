@@ -53,12 +53,14 @@
                 <?php
                 if( get_sub_field('ativar_banner') == 'true' ) { ?>
                     <div class="banner">
-                        <div class="image">
-                            <img src="<?php the_sub_field('imagem'); ?>" />
-                        </div>
-                        <div class="chamada">
-                            <?php the_sub_field('chamada'); ?>
-                        </div>
+						<div class="container">
+							<div class="image">
+								<img src="<?php the_sub_field('imagem'); ?>" />
+							</div>
+							<div class="chamada">
+								<?php the_sub_field('chamada'); ?>
+							</div>
+						</div>
                     </div>
                 <?php } ?>
             <?php endwhile; ?>

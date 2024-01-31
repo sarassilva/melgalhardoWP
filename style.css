@@ -1061,6 +1061,10 @@ body.page-template-semijoias .curadoria {
   text-transform: none;
 }
 
+.wp-block-cb-carousel {
+  padding: 0 20px;
+}
+
 .wp-block-cb-carousel .slick-track {
   display: flex;
 }
@@ -1072,20 +1076,20 @@ body.page-template-semijoias .curadoria {
   margin: 0 10px;
 }
 
-.wp-block-cb-carousel .slick-prev {
+.wp-block-cb-carousel .slick-prev, .wp-block-cb-carousel .slick-prev:hover {
   background-image: url(images/arrow.png);
-  width: 23px;
-  height: 30px;
+  width: 14px;
+  height: 24px;
   background-size: contain;
   text-indent: -9999px;
   background-repeat: no-repeat;
   left: -10px;
 }
 
-.wp-block-cb-carousel .slick-next {
+.wp-block-cb-carousel .slick-next, .wp-block-cb-carousel .slick-next:hover {
   background-image: url(images/arrow.png);
-  width: 23px;
-  height: 30px;
+  width: 14px;
+    height: 24px;
   background-size: contain;
   text-indent: -9999px;
   background-repeat: no-repeat;
@@ -1137,8 +1141,8 @@ body.page-template-semijoias .curadoria {
 
 .page-content .testimonials .slick-prev {
   background-image: url(images/arrow.png);
-  width: 23px;
-  height: 30px;
+  width: 14px;
+  height: 24px;
   background-size: contain;
   text-indent: -9999px;
   background-repeat: no-repeat;
@@ -1147,8 +1151,8 @@ body.page-template-semijoias .curadoria {
 
 .page-content .testimonials .slick-next {
   background-image: url(images/arrow.png);
-  width: 23px;
-  height: 30px;
+  width: 14px;
+  height: 24px;
   background-size: contain;
   text-indent: -9999px;
   background-repeat: no-repeat;
@@ -1160,6 +1164,67 @@ body.page-template-semijoias .curadoria {
 .page-content .banner {
   background-color: #07282a;
   color: #fff;
+}
+
+.page-content .banner .container {
+  max-width: 1920px;
+  width: 100%;
+}
+
+.page-content .banner .image {
+  height: 400px;
+}
+
+.page-content .banner .image img { 
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  object-position: center;
+}
+
+.page-content .banner .chamada {
+  padding: 5% 5% 20px;
+  font-family: 'Lora';
+  font-size: 30px;
+  line-height: normal;
+}
+
+.page-content .banner .chamada p {
+  line-height: 38px;
+}
+
+.page-content .banner .chamada a {
+  border: #d7b37b 1px solid;
+  color: #d7b37b;
+  padding: 5px 30px;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.page-content .banner .chamada a:hover {
+  text-decoration: none;
+  background-color: #d7b37b;
+  color: #07282a;
+}
+
+@media (min-width: 782px) {
+  .page-content .banner .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+  }
+
+  .page-content .banner .chamada {
+    max-width: 500px;
+    font-size: 40px;
+  }
+
+  .page-content .banner .chamada p {
+    line-height: 50px;
+  }
 }
 
 .instagram {
