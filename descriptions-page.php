@@ -54,10 +54,10 @@
                 if( get_sub_field('ativar_banner') == 'true' ) { ?>
                     <div class="banner">
                         <div class="image">
-                            <img src="<?php get_sub_field('imagem'); ?>" />
+                            <img src="<?php the_sub_field('imagem'); ?>" />
                         </div>
                         <div class="chamada">
-                            <?php get_sub_field('chamada'); ?>
+                            <?php the_sub_field('chamada'); ?>
                         </div>
                     </div>
                 <?php } ?>

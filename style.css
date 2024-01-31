@@ -1072,7 +1072,7 @@ body.page-template-semijoias .curadoria {
   margin: 0 10px;
 }
 
-.wp-block-cb-carousel .slick-list .slick-prev {
+.wp-block-cb-carousel .slick-prev {
   background-image: url(images/arrow.png);
   width: 23px;
   height: 30px;
@@ -1082,7 +1082,7 @@ body.page-template-semijoias .curadoria {
   left: -10px;
 }
 
-.wp-block-cb-carousel .slick-list .slick-next {
+.wp-block-cb-carousel .slick-next {
   background-image: url(images/arrow.png);
   width: 23px;
   height: 30px;
