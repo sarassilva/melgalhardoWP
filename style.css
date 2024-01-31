@@ -1061,7 +1061,11 @@ body.page-template-semijoias .curadoria {
 }
 
 .page-template-descriptions-page .services {
-  margin:  80px 0 0;
+  padding:  80px 0 0;
+}
+
+.page-template-descriptions-page .vip {
+  display: none;
 }
 
 .wp-block-cb-carousel {
