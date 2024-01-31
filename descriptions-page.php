@@ -13,13 +13,6 @@
 				    the_post_thumbnail();
 				} ?>
 			</div>
-			
-			<div class="call">
-			    <div class="container">	
-			    <h2><?php the_field('titulo') ?></h2>
-			    <?php the_field('texto') ?>
-			    </div>
-			</div>
 
 			<div class="container milpx">				
 				<?php the_content(); ?>

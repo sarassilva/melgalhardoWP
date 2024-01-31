@@ -1038,7 +1038,9 @@ body.page-template-semijoias .curadoria {
 .page-template-descriptions-page .page-content h2 {
   border-bottom: 1px solid #c69e62;
   padding-bottom: 5px;
-  font-size: 20px;
+  font-size: 18px;
+  font-family: 'Inter', sans-serif;
+  text-transform: none;
 }
 
 .page-content .testimonials {
