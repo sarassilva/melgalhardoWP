@@ -1043,6 +1043,11 @@ body.page-template-semijoias .curadoria {
   text-transform: none;
 }
 
+.wp-block-stackable-horizontal-scroller .wp-block-stackable-column {
+  border: 1px solid #c69e62;
+  padding: 20px;
+}
+
 .page-content .testimonials {
 	background: #d9d0bf;
 	padding: 60px 0;
