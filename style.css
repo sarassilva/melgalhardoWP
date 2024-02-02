@@ -1068,22 +1068,22 @@ body.page-template-semijoias .curadoria {
   display: none;
 }
 
-.wp-block-cb-carousel {
+.page-content .wp-block-cb-carousel {
   padding: 0 20px;
 }
 
-.wp-block-cb-carousel .slick-track {
+.page-content .wp-block-cb-carousel .slick-track {
   display: flex;
 }
 
-.wp-block-cb-carousel .slick-list .wp-block-cb-slide {
+.page-content .wp-block-cb-carousel .slick-list .wp-block-cb-slide {
   border: 1px solid #c69e62;
   padding: 20px;
   height: auto;
   margin: 0 10px;
 }
 
-.wp-block-cb-carousel .slick-prev, .wp-block-cb-carousel .slick-prev:hover, .wp-block-cb-carousel .slick-prev:not(:hover):not(:active) {
+.page-content .wp-block-cb-carousel .slick-prev, .wp-block-cb-carousel .slick-prev:hover, .wp-block-cb-carousel .slick-prev:not(:hover):not(:active) {
   background-image: url(images/arrow.png);
   width: 14px;
   height: 24px;
@@ -1093,7 +1093,7 @@ body.page-template-semijoias .curadoria {
   left: -10px;
 }
 
-.wp-block-cb-carousel .slick-next, .wp-block-cb-carousel .slick-next:hover, .wp-block-cb-carousel .slick-next:not(:hover):not(:active) {
+.page-content .wp-block-cb-carousel .slick-next, .wp-block-cb-carousel .slick-next:hover, .wp-block-cb-carousel .slick-next:not(:hover):not(:active) {
   background-image: url(images/arrow.png);
   width: 14px;
     height: 24px;
