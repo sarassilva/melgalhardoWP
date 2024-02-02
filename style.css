@@ -1083,7 +1083,7 @@ body.page-template-semijoias .curadoria {
   margin: 0 10px;
 }
 
-.page-content .wp-block-cb-carousel .slick-prev, .wp-block-cb-carousel .slick-prev:hover, .wp-block-cb-carousel .slick-prev:not(:hover):not(:active) {
+.page-content .wp-block-cb-carousel .slick-prev, .page-content .wp-block-cb-carousel .slick-prev:hover, .page-content .wp-block-cb-carousel .slick-prev:not(:hover):not(:active) {
   background-image: url(images/arrow.png);
   width: 14px;
   height: 24px;
@@ -1093,7 +1093,7 @@ body.page-template-semijoias .curadoria {
   left: -10px;
 }
 
-.page-content .wp-block-cb-carousel .slick-next, .wp-block-cb-carousel .slick-next:hover, .wp-block-cb-carousel .slick-next:not(:hover):not(:active) {
+.page-content .wp-block-cb-carousel .slick-next, .page-content .wp-block-cb-carousel .slick-next:hover, .page-content .wp-block-cb-carousel .slick-next:not(:hover):not(:active) {
   background-image: url(images/arrow.png);
   width: 14px;
     height: 24px;
